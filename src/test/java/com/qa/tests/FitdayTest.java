@@ -11,7 +11,7 @@ public class FitdayTest extends BaseTest {
 	@Test
 	public void headTailsTitleValidation() {
 		String actualTitle = hp.homePageTitle();
-		System.out.println(actualTitle);
+		//System.out.println(actualTitle);
 		Assert.assertEquals(actualTitle, Constants.HEAD_TAILS_TITLE);  
 	}
 	
